@@ -1,0 +1,4 @@
+getpic
+======
+
+find out rgb
