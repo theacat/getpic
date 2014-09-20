@@ -1,0 +1,12 @@
+from PIL import Image
+import numpy as np
+a = Image.open('/Users/thea/Documents/theawork/2014091001.PNG')
+m=a.size[0]
+n=a.size[1]
+for i in range(m):
+    for j in range(n):
+        r,g,b,z=a.getpixel((i,j))
+        if (r == 230 and g == 230 and b == 230) or (r == 25 and g == 25 and b == 25) or (r == 200 and g == 35 and b == 35) or (r == 255 and g == 233 and b == 147) or (r == 255 and g == 167 and b == 195) or (r == 255 and g == 191 and b == 255) or (r == 158 and g == 190 and b == 222) :
+            #print (i,j,r,g,b)
+            mylist.append(np.array([i,j,r,g,b]))
+mylist[2]
