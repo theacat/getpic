@@ -1,4 +1,3 @@
-thea123
 from PIL import Image
 import numpy as np
 a = Image.open('/Users/thea/Documents/theawork/2014091001.PNG')
